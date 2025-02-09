@@ -148,7 +148,7 @@ jobs:
         with:
           artifacts: "kernel/out/arch/arm64/boot/PixelOS-SUSFS-martini-${{ env.TAG_NAME }}.zip"
           tag: "ONEPLUS9RT-PixelOS-SUSFS-${{ env.TAG_NAME }}"
-          name: "PixelOS SUSFS martini ${{ env.TAG_NAME }}"
+          name: "PixelOS SUSFS gauguin ${{ env.TAG_NAME }}"
           allowUpdates: true
           replacesArtifacts: true
           token: ${{ secrets.GITHUB_TOKEN }}
