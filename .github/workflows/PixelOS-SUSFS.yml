@@ -49,7 +49,7 @@ jobs:
     env:
       CCACHE_COMPILERCHECK: "%compiler% -dumpmachine; %compiler% -dumpversion"
       CCACHE_NOHASHDIR: "true"
-      CCACHE_MAXSIZE: "2G"
+      CCACHE_MAXSIZE: "15G"
       CCACHE_HARDLINK: "true"
 
     steps:
